@@ -1,0 +1,175 @@
+body {
+	font-size: 16px;
+	color: #1e1f29;
+	background-color: #ebf5d6;
+	font-family: 'Open Sans', sans-serif;
+}
+/** HEADER **/
+#header-nav{
+	background-color: #0dd03c;
+	border-radius: 0;
+	border:0;
+}
+#logo-img {
+
+}
+.navbar-brand {
+	padding-top:25px;
+}
+.navbar-brand h1 { /* Restaurant name */
+	font-family: 'Wendy One', sans-serif;
+	color:#6e5341;
+	text-shadow: 1px 1px 1px #dbb569;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .5em
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;	
+}
+#nav-list {
+	margin-top: 10px;
+}
+#nav-list a {
+	color: #951C49;
+	text-align: center;
+}
+#nav-list a:hover{
+	background: #E7E7E7;
+}
+#nav-list a span {
+	font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -30px;
+}/* END HEADER */
+
+/*HOME PAGE*/
+h2 {
+	text-align: center;
+	font-size: 2em;
+	background: #E0FFFF;
+}
+h3 {
+	font-size: 3em;
+	background: #F6A126;
+	border: 1px solid black;
+}
+
+}
+.container .jumbotron {
+	box-shadow: 0 0 50px #3F0C1F;
+	border: 2px solid #3F0C1F;
+}
+#chicken-tile, #beef-tile, #sushi-tile {
+	height: 250px;
+	width:100%;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid #3F0C1F;
+	overflow: hidden;
+}
+#chicken-tile:hover, #beef-tile:hover, #sushi-tile:hover {
+	box-shadow: 0 2px 7px 2px #cccccc;
+	background-color: #FFE4C4;
+}
+#chicken-tile {
+	background: url('../images/mt_-mayon.jpg') no-repeat;
+	background-position: center;
+}
+#beef-tile {
+	background: url('../images/pinatubo.jpg') no-repeat;
+	background-position: center;
+}
+#sushi-tile {
+	background: url('../images/mount_apo_davao_philippines.jpg') no-repeat;
+	background-position: center;
+}
+#chicken-tile span, #beef-tile span, #sushi-tile span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: #D1C958;
+	color: #00276A;
+	opacity: .7;
+}
+
+
+
+/* END HOMEPAGE*/
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+	
+	}
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #logo-img {
+  
+  }
+  /* End Header */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	.navbar > .container .navbar-brand,
+	.navbar > .container-fluid .navbar-brand {
+		margin-left: -15px;
+	}
+}
+.navbar-toggle {
+	.position: relative;
+	float: right;
+	padding: 9px 10px;
+	margin-top: 8px;
+	margin-right: 15px;
+	margin-bottom: 8px;
+	background-color: transparent;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+.navbar-toggle:focus {
+	outline: 0;
+}
+.navbar-toggle .icon-bar + .icon-bar {
+	margin-top: 4px;
+}
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    
+  }
+  .navbar-brand h1 { /* Restaurant name */
+ 
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a { /* Collapsed nav menu glyph */
+    font-size: 2em;
+    margin-right: 5px;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 2em;
+    margin-right: 5px;
+
+  } 
+
+  /* End Header */
+
+}
